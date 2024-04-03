@@ -1,10 +1,15 @@
 import "./App.css";
-import Email from "./components/Email";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Nav from "./components/Nav";
 
 function App() {
     return (
-        <div className="App">
-            <Email />
+        <div>
+            <Nav />
+            <Hero />
+            <Footer />
         </div>
     );
 }

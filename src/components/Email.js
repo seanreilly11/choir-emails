@@ -32,23 +32,18 @@ const Email = () => {
     }, []);
 
     return (
-        <section className="todo-container">
-            <form onSubmit={addEmail}>
-                <div>
-                    <input
-                        type="email"
-                        placeholder="Enter your email"
-                        onChange={(e) => setEmail(e.target.value)}
-                    />
-                </div>
+        <form onSubmit={addEmail}>
+            <input
+                type="email"
+                className="form-control mb-2"
+                placeholder="Enter your email"
+                onChange={(e) => setEmail(e.target.value)}
+            />
 
-                <div className="btn-container">
-                    <button type="submit" className="btn">
-                        Join waitlist
-                    </button>
-                </div>
-            </form>
-        </section>
+            <button type="submit" className="btn btn-primary">
+                Join waitlist
+            </button>
+        </form>
     );
 };
 
