@@ -2,6 +2,18 @@
     background-color: #28eb48;
 }
 
+.nav-heading {
+    font-weight: bold;
+    color: #fff;
+}
+
+.hero-heading {
+    color: #fff;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
 .phone {
     object-fit: contain;
     width: 100%;
@@ -11,19 +23,14 @@
     /* margin-right: 100px; */
 }
 
-.hero-container {
-    height: 600px;
-    overflow: visible;
-}
-
-.hero-heading {
-    color: #fff;
-    font-weight: bold;
-    font-size: 4rem;
-    margin-top: 6rem;
-}
-
 @media (min-width: 768px) {
+    .hero-container {
+        height: 600px;
+        overflow: visible;
+    }
+    .hero-heading {
+        margin-top: 6rem;
+    }
     .phone {
         margin-left: 5rem;
     }
