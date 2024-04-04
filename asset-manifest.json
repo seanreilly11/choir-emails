@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/choir-emails/static/css/main.f855e6bc.css",
-    "main.js": "/choir-emails/static/js/main.d72fddbf.js",
+    "main.css": "/choir-emails/static/css/main.ceea8393.css",
+    "main.js": "/choir-emails/static/js/main.9f14f549.js",
     "static/js/453.75ad61a0.chunk.js": "/choir-emails/static/js/453.75ad61a0.chunk.js",
+    "static/media/phone.webp": "/choir-emails/static/media/phone.6ab1e3d783ac03059401.webp",
     "index.html": "/choir-emails/index.html",
-    "main.f855e6bc.css.map": "/choir-emails/static/css/main.f855e6bc.css.map",
-    "main.d72fddbf.js.map": "/choir-emails/static/js/main.d72fddbf.js.map",
+    "main.ceea8393.css.map": "/choir-emails/static/css/main.ceea8393.css.map",
+    "main.9f14f549.js.map": "/choir-emails/static/js/main.9f14f549.js.map",
     "453.75ad61a0.chunk.js.map": "/choir-emails/static/js/453.75ad61a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.d72fddbf.js"
+    "static/css/main.ceea8393.css",
+    "static/js/main.9f14f549.js"
   ]
 }
