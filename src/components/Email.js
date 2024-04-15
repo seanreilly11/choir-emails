@@ -50,8 +50,8 @@ const Email = () => {
             />
 
             <div className="d-flex align-items-center">
-                <button type="submit" className="btn btn-primary ">
-                    Join waitlist{" "}
+                <button type="submit" className="btn btn-primary btn-block">
+                    Join the waitlist{" "}
                     {loading && (
                         <div
                             className="spinner-border spinner-border-sm ms-2"

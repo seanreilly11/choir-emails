@@ -8,13 +8,13 @@ import Subscribe from "./components/Subscribe";
 
 function App() {
     return (
-        <div>
+        <>
             <Nav />
             <Hero />
             <Features />
             <Subscribe />
             <Footer />
-        </div>
+        </>
     );
 }
 

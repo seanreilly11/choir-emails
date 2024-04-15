@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="bg-main hero-container">
             <div className="container col-xxl-8 py-3">
                 <div className="row align-items-start g-5">
-                    <div className="col-lg-6">
+                    <div className="col-md-6">
                         <h1 className="hero-heading lh-1 mb-3">
                             Be proactive on safety
                         </h1>
@@ -17,11 +17,11 @@ const Hero = () => {
                             of being reactive after any potential damage has
                             already been done.
                         </p>
-                        <div className="w-75 mt-4">
+                        <div className="hero-email mt-4">
                             <Email />
                         </div>
                     </div>
-                    <div className="col-10 col-sm-8 col-lg-6">
+                    <div className="col-12 col-sm-8 col-md-6 mt-0 mt-md-5">
                         <img
                             src={phone}
                             className="phone"
